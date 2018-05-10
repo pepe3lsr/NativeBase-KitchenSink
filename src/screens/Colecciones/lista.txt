@@ -1,0 +1,23 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 148B-D388
+
+ Directory of C:\Users\pepe3\Documents\HERA\React\NativeBase-KitchenSink\src\screens\Colecciones
+
+05/03/2018  11:44 PM    <DIR>          .
+05/03/2018  11:44 PM    <DIR>          ..
+05/01/2018  05:03 AM               691 2017.js
+05/01/2018  05:03 AM               691 2018.js
+05/01/2018  05:03 AM               691 Augurio.js
+05/01/2018  05:03 AM               951 Barricada.js
+05/01/2018  05:03 AM               691 Base.js
+05/01/2018  05:03 AM               936 header-no-shadow.js
+05/01/2018  05:03 AM               802 header-span.js
+05/01/2018  05:03 AM               691 Herejes.js
+05/01/2018  05:03 AM               691 Impresindibles.js
+05/03/2018  11:34 PM             2,122 index.android.js
+05/01/2018  05:03 AM             2,001 index.ios.js
+05/03/2018  11:44 PM               169 lista.txt
+05/01/2018  05:03 AM               932 Santitos.js
+05/01/2018  05:03 AM               111 styles.js
+              14 File(s)         12,170 bytes
+               2 Dir(s)  283,990,294,528 bytes free

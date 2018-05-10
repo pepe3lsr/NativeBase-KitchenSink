@@ -29,13 +29,19 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "ajv": "^6.5.0",
     "color": "1.0.3",
     "lodash": "4.13.1",
     "moment": "2.13.0",
     "native-base": "2.4.2",
+    "npm": "^6.0.0",
     "react": "16.3.1",
     "react-native": "0.55.2",
+    "react-native-fbsdk": "^0.7.0",
+    "react-native-fs": "^2.8.1",
     "react-native-vector-icons": "4.3.0",
+    "react-native-youtube": "^1.1.0",
+    "react-native-youtube-player": "0.0.2",
     "react-navigation": "1.5.0"
   }
 }

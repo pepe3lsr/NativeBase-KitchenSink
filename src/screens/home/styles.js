@@ -15,14 +15,14 @@ export default {
   },
   logo: {
     position: "absolute",
-    left: Platform.OS === "android" ? 40 : 50,
-    top: Platform.OS === "android" ? 35 : 60,
-    width: 280,
-    height: 100
+    width: 400,
+    height: 300
   },
   text: {
-    color: "#D8D8D8",
+    color: "#fff",
     bottom: 6,
-    marginTop: 5
+    margin: 5,
+    textAlign: 'center',
+    backgroundColor: 'black'
   }
 };

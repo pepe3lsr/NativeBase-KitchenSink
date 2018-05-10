@@ -56,7 +56,7 @@ class AdvancedDeck extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>Advanced Deck Swiper</Title>
+            <Title>Tu poesía del día</Title>
           </Body>
           <Right />
         </Header>

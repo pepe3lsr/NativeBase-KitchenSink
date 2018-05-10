@@ -2,17 +2,18 @@ import React from "react";
 import { Root } from "native-base";
 import { StackNavigator, DrawerNavigator } from "react-navigation";
 
-import Header from "./screens/Header/";
-import Header1 from "./screens/Header/1";
-import Header2 from "./screens/Header/2";
-import Header3 from "./screens/Header/3";
-import Header4 from "./screens/Header/4";
-import Header5 from "./screens/Header/5";
-import Header6 from "./screens/Header/6";
-import Header7 from "./screens/Header/7";
-import Header8 from "./screens/Header/8";
-import HeaderSpan from "./screens/Header/header-span";
-import HeaderNoShadow from "./screens/Header/header-no-shadow";
+
+
+
+import veintediecisiete from "./screens/Colecciones/veintediecisiete";
+import veintedieciocho from "./screens/Colecciones/veintedieciocho";
+import Augurio from "./screens/Colecciones/Augurio";
+import Barricada from "./screens/Colecciones/Barricada";
+import Base from "./screens/Colecciones/Base";
+import Herejes from "./screens/Colecciones/Herejes";
+import Imprescindibles from "./screens/Colecciones/Imprescindibles";
+import Santitos from "./screens/Colecciones/Santitos";
+import YoutubeViewer from "./screens/Youtube/YoutubeViewer";
 import BasicFooter from "./screens/footer/basicFooter";
 import IconFooter from "./screens/footer/iconFooter";
 import IconText from "./screens/footer/iconText";
@@ -95,7 +96,13 @@ import SimpleDeck from "./screens/deckswiper/simple";
 import AdvancedDeck from "./screens/deckswiper/advanced";
 
 import Home from "./screens/home/";
+import ColeccionesNB from "./screens/Colecciones/";
 import Anatomy from "./screens/anatomy/";
+import Instagram from "./screens/Instagram/";
+import Novedades from "./screens/Novedades/";
+import Eventos from "./screens/Eventos/";
+import YoutubeSL from "./screens/Youtube/";
+import Twitter from "./screens/Twitter/";
 import Footer from "./screens/footer/";
 import NHBadge from "./screens/badge/";
 import NHButton from "./screens/button/";
@@ -125,7 +132,12 @@ const Drawer = DrawerNavigator(
   {
     Home: { screen: Home },
     Anatomy: { screen: Anatomy },
-    Header: { screen: Header },
+    Instagram: { screen: Instagram },
+    Novedades: { screen: Novedades },
+    Eventos: { screen: Eventos },
+    Twitter: { screen: Twitter },
+    YoutubeSL: { screen: YoutubeSL },
+    ColeccionesNB: { screen: ColeccionesNB},
     Footer: { screen: Footer },
     NHBadge: { screen: NHBadge },
     NHButton: { screen: NHButton },
@@ -162,17 +174,15 @@ const AppNavigator = StackNavigator(
   {
     Drawer: { screen: Drawer },
 
-    Header1: { screen: Header1 },
-    Header2: { screen: Header2 },
-    Header3: { screen: Header3 },
-    Header4: { screen: Header4 },
-    Header5: { screen: Header5 },
-    Header6: { screen: Header6 },
-    Header7: { screen: Header7 },
-    Header8: { screen: Header8 },
-    HeaderSpan: { screen: HeaderSpan },
-    HeaderNoShadow: { screen: HeaderNoShadow },
-
+    veintediecisiete: { screen: veintediecisiete },
+    veintedieciocho: { screen: veintedieciocho },
+    Augurio: { screen: Augurio },
+    Barricada: { screen: Barricada },
+    Base: { screen: Base },
+    Herejes: { screen: Herejes },
+    Imprescindibles: { screen: Imprescindibles },
+    Santitos: { screen: Santitos },
+    YoutubeViewer: {screen: YoutubeViewer },
     BasicFooter: { screen: BasicFooter },
     IconFooter: { screen: IconFooter },
     IconText: { screen: IconText },
